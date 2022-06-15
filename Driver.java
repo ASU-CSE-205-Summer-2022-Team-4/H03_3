@@ -1,6 +1,10 @@
 public class Driver {
+    private H03_31 mCut;
 
     public static void main(String[] args) {
-        System.out.println(sum1toN(7));
+        new Driver();
+    }
+    private void run(){
+        mCut = new H03_31();
     }
 }
