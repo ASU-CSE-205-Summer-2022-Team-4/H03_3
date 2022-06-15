@@ -6,12 +6,14 @@ public class H03_35_Test {
     private void run(){
         mCut = new H03_35();
         performTestCase(1,"hello world", "dlrow olleh");
+        performTestCase(2,"apple", "elppa");
+        performTestCase(3,"java is cool", "looc si avaj");
     }
 
     private void performTestCase(int pTestCaseNum, String pS, String pExpectedString){
         printTestCaseInfo(pTestCaseNum, pS, pExpectedString);
         String actualString = mCut.reverse(pS);
-        System.out.println("actual string: " + actualString);
+
         if(actualString.equals(pExpectedString)){
             System.out.println("passed\n");
         } else {
