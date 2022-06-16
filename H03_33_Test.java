@@ -7,7 +7,7 @@ public class H03_33_Test {
     private void run(){
         mCut = new H03_33();
         performTestCase(1,7.0, 3, 343.0);
-        performTestCase(2,5.0, 2, 5.0);
+        performTestCase(2,5.0, 2, 25.0);
         performTestCase(3,23.0, 6, 148035889.0);
         performTestCase(4,4.0, 5, 1024.0);
     }
